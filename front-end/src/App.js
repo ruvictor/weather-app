@@ -12,7 +12,7 @@ function App() {
           <g className="currentWeather">
             <rect x="0" y="0" width="158" height="200" className="leftRect"></rect>
             <rect x="0" y="0" width="158" height="30" className="currentDate"></rect>
-            <text x="15" y="21" className="currentDateText">SUNDAY @ 9:37 AM</text>
+            <text x="20" y="21" className="currentDateText">SUNDAY @ 9:37 AM</text>
             <rect x="0" y="30" width="158" height="35" className="currentTemp"></rect>
             <text className="currentTempText" x="60" y="55">65&#8457;</text>
             <rect x="0" y="65" width="158" height="100" className="currentWind"></rect>
@@ -24,8 +24,8 @@ function App() {
           </g>
           <rect x="158" y="0" width="1" height="200" fill="white"></rect>
           <g>
-            <rect x="159" y="0" width="791" height="30" className="titleLine"></rect>
-            <text x="450" y="20" className="titleLineText">5-Day Surf Forecast</text>
+            <rect x="159" y="0" width="635" height="30" className="titleLine"></rect>
+            <text x="420" y="20" className="titleLineText">5-Day Forecast</text>
           </g>
           <g>
             <rect x="159" y="30" width="158" height="170" className="dayBlock"></rect>
