@@ -77,3 +77,8 @@
 .cl2{
   stop-color:rgb(237,145,45);stop-opacity:0.6;
 }
+
+.day {
+  fill: #757575;
+  fill-opacity: 0.5;
+}
