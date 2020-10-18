@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+#mainwidget {
+  display: table;
+  margin: 50px auto 0;
+}
+.leftRect {
+  fill: blue;
+  fill-opacity: 0.1;
+}
+.currentDate{
+  fill: rgb(0 0 0 / 52%);
+}
+.currentDateText {
+  text-align: center;
+  fill: #fff;
+  font-size: 13px;
+}
+
+.currentTemp {
+  fill: blue;
+  fill-opacity: 0.5;
+}
+
+.currentTempText {
+  text-align: center;
+  fill: #fff;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.currentWind {
+  fill: blue;
+  fill-opacity: 0.5;
+}
+
+.currentWindText {
+  text-align: center;
+  fill: #fff;
+  font-size: 19px;
+  font-weight: bold;
+}
